@@ -5,14 +5,14 @@ var container = document.getElementById('bannerblock');
 var arrow = document.getElementById('arrow');
 var body = document.getElementById('body');
 var btn_menu = document.getElementById('btn_menu');
-var info= document.getElementById('info_pages');
+var info = document.getElementById('info_pages');
 var main = document.getElementById('container_pages');
 var footer = document.getElementById('footer');
 var containerIni = document.getElementById('container');
 
 btnMenu.addEventListener('click', function(){
        
-        main.classList.toggle('desplazar');
+        
     containerIni.classList.toggle('desplazar');
 
  

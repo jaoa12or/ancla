@@ -38,6 +38,7 @@ $(document).ready(function(){
         
        var scrollTop = $(this).scrollTop();
         var pixels = scrollTop/100;
+        var pixels_info = scrollTop;
         
         if(scrollTop<=height){
             $("#bannerblock").css({
@@ -45,8 +46,24 @@ $(document).ready(function(){
                 "background-position": "center -" + pixels * 10 + "px"
                 
             });
+            
+            
+            $('#info').css({
+                
+               "background-color": "rgba(255,255,255,"+ pixels_info/500 +")" 
+                
+                
+            });
+            
+            
+            
+      
+            
+         
+            
         }
         
+      
         
         
         
